@@ -1,0 +1,12 @@
+{
+  "name": "TextExtraction",
+  "displayName": "TextExtraction",
+  "expo": {
+    "name": "TextExtraction",
+    "slug": "TextExtraction",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
