@@ -5,13 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from "./src/Screens/HomeScreen";
-import NewScreen from './src/Screens/NewScreen';
+import CamScreen from './src/Screens/CamScreen';
 import SettingsScreen from './src/Screens/SettingsScreen' ;
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen ,
-    New : NewScreen , 
+    Cam : CamScreen , 
     Settings : SettingsScreen ,
   },
   {

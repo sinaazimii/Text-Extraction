@@ -17,20 +17,13 @@ const NavigationBar = (props) => {
 };
 
 const styles = StyleSheet.create({
-  page : {
-    height : phoneHeight , 
-    width : width , 
-    backgroundColor : 'blue' ,
-    position : 'absolute' , 
-    top : 0 ,
-  },
   navigationBar :{
     backgroundColor : 'red' , 
     width : width, 
     height : navigationBarHeight, 
     position : 'absolute' , 
     bottom : 0 ,
-    alignItems : 'center'
+    alignItems : 'center' , 
   }, 
   archiveIcon : {
     height : 45 ,
@@ -49,7 +42,8 @@ const styles = StyleSheet.create({
   captureIcon : {
     height : 65 ,
     width : 65 ,
-    bottom : navigationBarHeight - 35
+    position :'absolute' ,
+    bottom : navigationBarHeight - 32.5
   },
 });
 
